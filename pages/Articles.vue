@@ -8,7 +8,7 @@
       </sub>
       on
       <em>
-        <a href="https://dev.to/asaoluelijah" target="_blank" rel="noopener"
+        <a href="/" target="_blank" rel="noopener"
           >dev.to</a
         >
       </em>
@@ -21,7 +21,7 @@
         style="display: inline-block;"
       >
         Error loading articles, click
-        <a href="https://dev.to/asaoluelijah" target="_blank">here</a> to read
+        <a href="/" target="_blank">here</a> to read
         'em instaed.
       </b-alert>
       <b-spinner variant="primary" v-if="showLoader"></b-spinner>
@@ -79,22 +79,22 @@ export default {
     };
   },
   head: {
-    title: "Recent Articles 📚 - Asaolu Elijah",
+    title: "Recent Blogs  - Aryan Pandey",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Read articles written by Asaolu Elijah, articles include topics under web development (html, css, javascript), mobile app development and many more."
+          "Read Blogs About Stuffs i do"
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Articles 📚 - Asaolu Elijah"
+        content: "Recent Blogs"
       },
       {
         property: "og:description",
-        content: "Read articles written by Asaolu Elijah, articles include topics under web development (html, css, javascript), mobile app development and many more."
+        content: "Read Blogs Published by Aryan Pandey, Blogs include topics under web development (html, css, javascript), mobile app development and many more."
       },
     ]
   },
@@ -120,7 +120,7 @@ export default {
               url: article.url,
               date: article.readable_publish_date,
               tags: article.tag_list,
-              imgAlt: article.title + " - Asaolu Elijah"
+              imgAlt: article.title + " -Aryan pandey"
             });
           });
           success();
@@ -133,7 +133,7 @@ export default {
   },
   mounted() {
     this.getArticles(
-      "asaoluelijah",
+      "krauz",
       () => {
         this.showLoader = false;
       },

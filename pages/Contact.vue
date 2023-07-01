@@ -18,7 +18,7 @@
         <b-form class="mb-5" @submit.prevent="sendMessage">
           <b-form-group id="input-group-1" label="Your Name:">
             <b-form-input
-              placeholder="John Doe"
+              placeholder="Average Joe"
               v-model="formData.name"
               required
             ></b-form-input>
@@ -28,7 +28,7 @@
             <b-form-input
               v-model="formData.email"
               type="email"
-              placeholder="john@doe.com"
+              placeholder="average@joe.com"
               required
             ></b-form-input>
           </b-form-group>
@@ -38,7 +38,7 @@
               v-model="formData.message"
               no-resize
               rows="3"
-              placeholder="Watsup Elijah, are you available for.."
+              placeholder="HEY Aryan, Can i talk to you for..."
               required
             ></b-form-textarea>
           </b-form-group>
@@ -70,7 +70,7 @@ export default {
       data.append("Email", self.formData.email);
       data.append("Message", self.formData.message);
 
-      fetch("https://formspree.io/f/mvodbwva", {
+      fetch("https://formspree.io/f/mleyrzqk", {
         method: "POST",
         body: data,
         headers: {
@@ -90,21 +90,21 @@ export default {
     }
   },
   head: {
-    title: "Contact 📧 - Asaolu Elijah",
+    title: "Contact 📧 - Aryan Pandey",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Do you have any enquires? Send a message now to Asaolu Elijah"
+        content: "Do you have any enquires? Send a message now to Aryan Pandey"
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Contact 📧 - Asaolu Elijah"
+        content: "Contact 📧 - Aryan Pandey"
       },
       {
         property: "og:description",
-        content: "Do you have any enquires? Send a message now to Asaolu Elijah"
+        content: "Do you have any enquires? Send a message now to Aryan Pandey"
       },
       {
         hid: "og:image",
