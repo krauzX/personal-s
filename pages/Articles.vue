@@ -133,7 +133,7 @@ export default {
   },
   mounted() {
     this.getArticles(
-      "krauz",
+      "Cecelia Martinez",
       () => {
         this.showLoader = false;
       },

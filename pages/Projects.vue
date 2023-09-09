@@ -43,22 +43,22 @@ export default {
     return {
       projects: [
         {
-          title: "Say-It",
-          tag: "Progressive Web App",
+          title: "Ecommerce website",
+          tag: "Ecommerce",
           description:
-            "Typing sucks, say the words instead and the text will be generated for you.",
+            "A demo of ecommerce website.",
           image_cover: require("@/assets/speak.jpg"),
-          github_url: "https://github.com/krauz/sayit",
-          link: "https://krauz.github.io/sayit"
+          github_url: "",
+          link: "https://aryusa.netlify.com"
         },
         {
-          title: "Qr-Generator",
-          tag: "Progressive Web App",
+          title: "Calculator",
+          tag: "Basic",
           description:
-            "Easily share secret messages with friends by converting text to qrcode.",
+            "ARE U A CAVEMAN?",
           image_cover: require("@/assets/qr-1.png"),
-          github_url: "https://github.com/krauzX/qrcode",
-          link: "https://krauzX.github.io/qrcode/"
+          github_url: "https://github.com/krauzX/calculator-",
+          link: "https://krauzx.github.io/calculator-/"
         }
       ],
     };
