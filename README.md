@@ -1,6 +1,6 @@
 # Personal Portfolio 👨🏿‍💻
 
-> Check it out [here](https://asaolu.netlify.app)
+> Check it out [here](https://krauz.netlify.app)
 
 ### Light-House Report ⚡️
 
